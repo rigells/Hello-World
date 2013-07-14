@@ -6,7 +6,7 @@ all : mysource
 mysource : mysource.o
 	$(CXX) -Wall -o $@ $^ $(LIB)
 
-mysource.o : mysource.cpp
+mysource2.o : mysource.cpp
 	$(CXX) -Wall -c $^ 
 
 clean :
