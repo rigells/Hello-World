@@ -13,4 +13,6 @@ clean:
 	rm -rf *.mod.*
 	rm -rf .*.cmd
 	rm -rf *.o
+	rm -rf *.order
+	rm -rf *.symvers
 
